@@ -28,7 +28,8 @@ namespace cg
 		unsigned raytracing_depth;
 		unsigned accumulation_num;
 
-		std::filesystem::path shader_path;
+		//Option for showing edges of polygons
+		bool show_edges;
 	};
 
 }// namespace cg

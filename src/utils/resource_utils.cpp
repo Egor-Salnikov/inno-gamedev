@@ -37,4 +37,3 @@ void cg::utils::save_resource(cg::resource<cg::unsigned_color>& render_target, s
 	if (!command.empty())
 		std::system(command.c_str());
 }
-
